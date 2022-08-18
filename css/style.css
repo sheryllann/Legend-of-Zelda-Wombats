@@ -1,0 +1,25 @@
+body {
+    background: #FFCC00;
+}
+
+h1 {
+    color: purple;
+    background: pink;
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+.banners img {
+    width: 49%
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background: blue;
+    }
+    .banners img {
+        width: 100%
+    }
+}
+
